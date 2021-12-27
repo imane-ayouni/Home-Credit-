@@ -13,20 +13,20 @@ The main objective is to identify the potential Defaulters based on the given da
 The probability of classification is essential because we want to be very sure when we classify someone as a Non-Defaulter, as the cost of making a mistake can be very high to the company.
 
 ## Machine learning problem formulation 
-We can identify that it is a Supervised Learning Classification problem, which contains the training data points along with their Class Labels. Here the Class Labels represent whether a given applicant is a Defaulter or not. Thus, for a given application of a client, using the given features, we have to predict the Class Label associated with that client.
-We also realize that it is a Binary Classification problem, that is it contains just 2 classes, viz. Positive (1) and Negative (0).
-The dataset provided is an imbalanced dataset. Thus, we would need to address this imbalance wherever required, as some ML algorithms are sensitive to data imbalance.
+- We can identify that it is a Supervised Learning Classification problem, which contains the training data points along with their Class Labels. Here the Class Labels represent whether a given applicant is a Defaulter or not. Thus, for a given application of a client, using the given features, we have to predict the Class Label associated with that client.
+- We also realize that it is a Binary Classification problem, that is it contains just 2 classes, viz. Positive (1) and Negative (0).
+- The dataset provided is an imbalanced dataset. Thus, we would need to address this imbalance wherever required, as some ML algorithms are sensitive to data imbalance.
 
 ## Classification models used
-Linear Regression
-Random Forest Classifier
-XGBoost
-SVM
+- Linear Regression
+- Random Forest Classifier
+- XGBoost
+- SVM
 
 ## Evaluation matrices
-Accuracy
-Precision
-Recall
-F1 score
-AUC ROC Curve
-Confusion matrix
+- Accuracy
+- Precision
+- Recall
+- F1 score
+- AUC ROC Curve
+- Confusion matrix
