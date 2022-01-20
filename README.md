@@ -18,7 +18,7 @@ The probability of classification is essential because we want to be very sure w
 - The dataset provided is an imbalanced dataset. Thus, we would need to address this imbalance wherever required, as some ML algorithms are sensitive to data imbalance.
 
 ## Classification models used
-- Linear Regression
+- Logistic Regression
 - Random Forest Classifier
 - XGBoost
 - SVM
